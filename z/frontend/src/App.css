@@ -1,0 +1,104 @@
+/* .App { */
+  /* text-align: center; */
+/* } */
+
+.nav-ul {
+ margin-left: 0.4vw;
+ margin-right: 0.4vw;
+  /* background-color: rgb(243, 209, 200); */
+  background-color: black;
+}
+
+.nav-ul li{
+  display: inline-flex;
+  padding:1vw;
+}
+.nav-ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-ul li:hover{
+  background-color: violet;
+}
+/* -----------------------Registration Page------------------------------ */
+.containerRegistrationInfo{
+  /* text-align: center; */
+  margin-left: 34vw;
+}
+.RegisterationInfo{
+  display: block;
+  padding: 7px;
+  border: 2px solid lime;
+  width: 30vw;
+  margin-top: 2vh;
+  padding: 1.5vh;
+  /* margin */
+}
+#RegistrationSubmitButton{
+  padding: 1vw;
+  margin-top: 2vh;
+  margin-left: 12vw;
+  background-color:black;
+  color: white;
+  border-radius: 5px;
+  border-color: whitesmoke;
+  cursor: pointer;
+}
+#RegistrationSubmitButton:hover{
+  box-shadow: none;
+  background-color: #0460d8;
+}
+
+/* ------------------------------Footer---------------------------------- */
+.footer-div{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+ }
+#footer-div{
+  text-align: center;
+  justify-content: center;
+}
+.footer-div:hover{
+  background-color: violet;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
